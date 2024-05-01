@@ -41,7 +41,7 @@ spec:
             secretKeyRef:
               key: password
               name: infinispan-generated-secret
-        image: quay.io/rhdevelopers/quinoa-wind-turbine:1.0.0
+        image: quay-2qv8m.apps.cluster-2qv8m.sandbox2031.opentlc.com/quayadmin/quinoa-wind-turbine:1.0.0
         imagePullPolicy: IfNotPresent
         name: quinoa-wind-turbine
         ports:
